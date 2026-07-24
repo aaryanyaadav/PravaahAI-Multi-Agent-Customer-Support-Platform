@@ -259,20 +259,54 @@ Before routing to the `escalation` node and creating a ticket row in the `ticket
 
 ---
 
-## Visual Showcase (Screenshots)
+## Visual Showcase
+
+Explore the customer-facing interface and the real-time operations dashboard.
 
 ### 1. Customer Chat Workspace
-This section displays the interactive customer portal. Add the following screenshots to visual locations:
 
-*   **Chat Initial State** (`./docs/screenshots/chat_initial.png`): Represents the clean layout when a session begins.
-*   **Voice Dictation Mode** (`./docs/screenshots/chat_voice_listening.png`): Shows the glowing microphone and active soundwave visualizer.
-*   **Multi-Agent Response** (`./docs/screenshots/chat_conversation.png`): Displays a user querying billing and CRM details with agent steps.
+The Customer Chat Workspace is a stateful, interactive portal designed to handle customer queries over multiple turns.
 
-### 2. Operations Dashboard
-This section aggregates database telemetry and statistics:
+#### A. Chat Initial State
+![Chat Initial State](./docs/screenshots/chat_initial.png)
+*   **Conversational History Sidebar (Left):** Maintains a clean chronological list of past support sessions (e.g., "Billing Inquiry", "Refund Inquiry") linked to the user's active session.
+*   **Stateful Memory Context:** When a user requests invoices or profile info, the system resolves historical context to retrieve their `account_id` automatically.
+*   **Ticket Confirmation Alerts:** Displays clear, system-generated notification cards whenever an inquiry is escalated and a new ticket is written to the database.
 
-*   **Telemetry Dashboard Overview** (`./docs/screenshots/dashboard_overview.png`): Displays total chats, active workloads, daily charts, and the animated CPU Token Usage badge.
-*   **Observability Trace Inspector** (`./docs/screenshots/observability_trace_drawer.png`): Shows the slide-out drawer detailing every step, agent execution details, and grounding check.
+#### B. Voice Dictation Mode
+![Voice Dictation Mode](./docs/screenshots/chat_voice_listening.png)
+*   **Web Speech API Integration:** Enables live microphone recording. The status bar displays a pulsing red `REC` badge along with custom CSS-animated soundwave frequencies.
+*   **Safe Edit Workflow:** Users can record their speech, press the red cancel (`X`) button to halt listening, and edit the transcribed text manually before submission.
+*   **Chip Suggestions:** Provides quick-click query suggestions for common actions (e.g., querying billing history, account details, testing safety deflections).
+
+#### C. Multi-Agent Conversation & Trace
+![Chat Conversation](./docs/screenshots/chat_conversation.png)
+*   **Active Agent Flow:** Displays a multi-turn session where a refund query is parsed and handled by the system.
+*   **Observability Sidebar (Right):** The panel slides out to reveal the step-by-step reasoning steps of the central orchestrator (Input Guardrail status, router confidence, agent tool executions, and final response synthesis).
+
+---
+
+### 2. Operations & Telemetry Dashboard
+
+The Operations Dashboard provides support administrators with complete real-time visibility into active workloads, AI deflection rates, and agent-level telemetry.
+
+#### A. Telemetry Dashboard Overview
+![Telemetry Dashboard Overview](./docs/screenshots/dashboard_overview.png)
+*   **Interactive Period Filters:** Allows administrators to filter metrics by Today, Last 7 Days, Last 30 Days, or All Time.
+*   **Key Performance Indicators (KPIs):**
+    *   **Total Tickets Raised / Active / Resolved:** Live indicators pulling directly from PostgreSQL.
+    *   **AI Resolution Rate:** Displays a 100% deflection rate, representing cases handled fully by autonomous agents.
+*   **Telemetry Trends & Workloads:**
+    *   **Incoming Daily Volume (Left):** Real-time chart displaying volumetric trends of incoming conversations vs. escalations.
+    *   **Agent Workload (Right):** Visual bar chart counting invocations per specialized agent (CRM, Billing, Knowledge, etc.) to evaluate resource allocation.
+
+#### B. Observability Trace Inspector Drawer
+![Observability Trace Inspector](./docs/screenshots/observability_trace_drawer.png)
+*   **Step-by-Step Execution Logs:** Displays the exact routing path taken by the orchestrator:
+    1.  **Input Guardrail:** Confirms input is safe and checks for PII/injections.
+    2.  **Routing Decision:** Router evaluates query and selects the CRM agent (95% confidence).
+    3.  **Agent Execution:** Preview of data returned by database query tools (company info, renewal timeline, seat count, monthly revenue).
+    4.  **Final Response:** Router determines CRM context is complete and routes to the final response node.
 
 ---
 
