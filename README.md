@@ -359,7 +359,7 @@ Open `http://127.0.0.1:3000` in your web browser.
 
 ## Author
 
-*   **Aryan Yadav** - *Lead Architect & Developer*
+*   **Aryan Yadav**
     *   **Email:** [aryanyadav051206@gmail.com](mailto:aryanyadav051206@gmail.com)
     *   **GitHub:** [@aaryanyaadav](https://github.com/aaryanyaadav)
 
