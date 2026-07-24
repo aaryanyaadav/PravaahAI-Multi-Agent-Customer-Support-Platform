@@ -36,7 +36,7 @@ The following diagram illustrates the complete routing flow, API gateways, datab
 graph TD
     classDef client fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#f8fafc;
     classDef api fill:#1e1b4b,stroke:#818cf8,stroke-width:2px,color:#f8fafc;
-    classDef graph fill:#1e293b,stroke:#a78bfa,stroke-width:2px,color:#f8fafc;
+    classDef orchestrator fill:#1e293b,stroke:#a78bfa,stroke-width:2px,color:#f8fafc;
     classDef agent fill:#311042,stroke:#d946ef,stroke-width:2px,color:#f8fafc;
     classDef db fill:#064e3b,stroke:#34d399,stroke-width:2px,color:#f8fafc;
 
@@ -54,11 +54,11 @@ graph TD
     end
 
     subgraph Graph ["LangGraph Orchestration State Machine"]
-        LoadMem["1. load_memory Node (Input Guardrails)"]:::graph
-        RouterNode["2. router Node (LLM Router)"]:::graph
-        ExecAgents["3. Agent Nodes (CRM, Billing, Ticket, RAG, Refund)"]:::graph
-        EscNode["4. escalation Node (lightweight check + ticket creation)"]:::graph
-        FinalNode["5. final_response Node (Merge & Output Guardrails)"]:::graph
+        LoadMem["1. load_memory Node (Input Guardrails)"]:::orchestrator
+        RouterNode["2. router Node (LLM Router)"]:::orchestrator
+        ExecAgents["3. Agent Nodes (CRM, Billing, Ticket, RAG, Refund)"]:::orchestrator
+        EscNode["4. escalation Node (lightweight check + ticket creation)"]:::orchestrator
+        FinalNode["5. final_response Node (Merge & Output Guardrails)"]:::orchestrator
     end
 
     subgraph Agents ["ReAct Domain Agents"]
