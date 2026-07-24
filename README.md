@@ -354,3 +354,12 @@ Run the frontend web server (using python server, node, or liveserver):
 python -m http.server 3000 --directory frontend
 ```
 Open `http://127.0.0.1:3000` in your web browser.
+
+---
+
+## Author
+
+*   **Aryan Yadav** - *Lead Architect & Developer*
+    *   **Email:** [aryanyadav051206@gmail.com](mailto:aryanyadav051206@gmail.com)
+    *   **GitHub:** [@aaryanyaadav](https://github.com/aaryanyaadav)
+
