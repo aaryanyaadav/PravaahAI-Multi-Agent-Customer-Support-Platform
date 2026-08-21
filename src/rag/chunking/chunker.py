@@ -11,10 +11,7 @@ def chunk_text(text: str):
         stripped = chunk.strip()
         if not stripped:
             continue
-        
-        # If it's a section header like "User Management FAQs" or "2. User Management Policy",
-        # we can keep it as its own chunk, or attach it to the next chunk.
-        # But split by double newlines is robust enough. Let's clean and append.
+    
         chunks.append(stripped)
         
     return chunks
