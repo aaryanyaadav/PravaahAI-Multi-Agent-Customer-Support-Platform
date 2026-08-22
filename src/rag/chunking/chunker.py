@@ -11,7 +11,6 @@ def chunk_text(text: str):
         stripped = chunk.strip()
         if not stripped:
             continue
-    
         chunks.append(stripped)
         
     return chunks
