@@ -341,14 +341,14 @@ evaluation/
 
 #### 1. Executive KPI Summary
 
-| Benchmark Metric | Score | Target | Status | Description |
+| Benchmark Metric | Score | Description |
 | :--- | :---: | :---: | :---: | :--- |
-| **Routing Accuracy** | **73.0%** | ≥ 95.0% | ⚠️ In Review | Correct primary domain agent assigned |
-| **Escalation Accuracy** | **94.0%** | ≥ 95.0% | ⚠️ In Review | Correct identification of human handoff needs |
-| **Ticket Accuracy (Suppression & Creation)** | **94.0%** | 100.0% | ⚠️ In Review | Accurate DB ticket creation vs suppression |
-| **Conversational Ticket Suppression** | **100.0%** | 100.0% | ✅ Pass | 0 false tickets generated for greetings/gibberish |
-| **Answer / Factual Accuracy** | **71.0%** | ≥ 90.0% | ⚠️ In Review | Correct factual details present in response |
-| **Average Keyword Coverage** | **64.66%** | ≥ 85.0% | ⚠️ In Review | Key ground-truth entities mentioned |
+| **Routing Accuracy** | **73.0%** | Correct primary domain agent assigned |
+| **Escalation Accuracy** | **94.0%** | Correct identification of human handoff needs |
+| **Ticket Accuracy (Suppression & Creation)** | **94.0%** | Accurate DB ticket creation vs suppression |
+| **Conversational Ticket Suppression** | **100.0%** | 0 false tickets generated for greetings/gibberish |
+| **Answer / Factual Accuracy** | **71.0%** | Correct factual details present in response |
+| **Average Keyword Coverage** | **64.66%** | Key ground-truth entities mentioned |
 
 #### 2. Latency & Token Telemetry
 
