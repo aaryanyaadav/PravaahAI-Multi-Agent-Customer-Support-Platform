@@ -1,0 +1,326 @@
+Nexus Support AI 
+Frequently Asked Questions (FAQ) 
+Version 1.0 
+ 
+Account Management FAQs 
+Q1. How do I create an account? 
+A: 
+Visit the registration page and complete the signup process using your company information. 
+ 
+Q2. How do I update company information? 
+A: 
+Navigate to Account Settings and update the required company details. 
+ 
+Q3. How do I view account details? 
+A: 
+Go to Account Settings to view company information, subscription details, and account status. 
+ 
+Q4. How do I check account status? 
+A: 
+Account status is available in the Account Overview section. 
+Possible statuses include: 
+• 
+Active 
+• 
+Trial 
+• 
+Suspended 
+• 
+Cancelled 
+ 
+Q5. How do I change account ownership? 
+A: 
+Only the current account owner can transfer ownership to another administrator. 
+ 
+Q6. What happens when an account is suspended? 
+A: 
+Users may lose access to certain services until the issue is resolved. 
+ 
+Q7. Can multiple administrators manage the same account? 
+A: 
+Yes. Multiple administrators can be assigned to an account. 
+ 
+Q8. How do I reactivate an account? 
+A: 
+Contact support or resolve any outstanding billing issues. 
+ 
+User Management FAQs 
+Q9. How do I add a user? 
+A: 
+Navigate to User Management and select Add User. 
+ 
+Q10. How do I remove a user? 
+A: 
+Select the user and click Remove User. 
+ 
+Q11. How do I edit a user role? 
+A: 
+Open User Management, select the user, and update their assigned role. 
+ 
+Q12. What user roles are available? 
+A: 
+Available roles include: 
+• 
+Owner 
+• 
+Admin 
+• 
+Manager 
+• 
+Member 
+ 
+Q13. How many users can I add? 
+A: 
+The number of users depends on your available seat count. 
+ 
+Q14. Why can't I add another user? 
+A: 
+You may have reached the maximum number of purchased seats. 
+ 
+Q15. Can I temporarily disable a user? 
+A: 
+Yes. Users may be deactivated without being permanently removed. 
+ 
+Subscription FAQs 
+Q16. How do I change my subscription plan? 
+A: 
+Navigate to Billing → Subscription → Change Plan. 
+ 
+Q17. When does an upgrade take effect? 
+A: 
+Plan upgrades take effect immediately. 
+ 
+Q18. When does a downgrade take effect? 
+A: 
+Downgrades become active during the next billing cycle. 
+ 
+Q19. What subscription plans are available? 
+A: 
+Available plans include: 
+• 
+Starter 
+• 
+Professional 
+• 
+Business 
+• 
+Enterprise 
+ 
+Q20. Can I switch from monthly to annual billing? 
+A: 
+Yes. Billing frequency can be modified from Subscription Settings. 
+ 
+Q21. Will my features change after upgrading? 
+A: 
+Yes. Additional features and limits may become available. 
+ 
+Billing FAQs 
+Q22. Where can I view invoices? 
+A: 
+Navigate to Billing → Invoices. 
+ 
+Q23. How do I download an invoice? 
+A: 
+Select the invoice and click Download. 
+ 
+Q24. Why was I charged this month? 
+A: 
+Charges are generated based on active subscriptions and seat usage. 
+ 
+Q25. What payment methods are supported? 
+A: 
+Supported methods include: 
+• 
+Credit Cards 
+• 
+Debit Cards 
+• 
+ACH Transfers 
+• 
+Wire Transfers 
+ 
+Q26. Why did my payment fail? 
+A: 
+Common reasons include: 
+• 
+Insufficient funds 
+• 
+Expired card 
+• 
+Bank restrictions 
+ 
+Q27. How do I update my payment method? 
+A: 
+Navigate to Billing Settings and add a new payment method. 
+ 
+Q28. What happens if I miss a payment? 
+A: 
+Your account may become restricted until payment is received. 
+ 
+Q29. How do I view billing history? 
+A: 
+Billing history is available under Billing Reports. 
+ 
+Q30. Can I receive invoices by email? 
+A: 
+Yes. Invoice email notifications can be enabled in settings. 
+ 
+Seat Management FAQs 
+Q31. What is a seat? 
+A: 
+A seat represents one active user within the platform. 
+ 
+Q32. How do I purchase additional seats? 
+A: 
+Navigate to Seat Management and select Add Seats. 
+ 
+Q33. Are additional seats billed immediately? 
+A: 
+Yes. Additional seats are billed on a prorated basis. 
+ 
+Q34. Can unused seats be refunded? 
+A: 
+Unused seats are generally non-refundable. 
+ 
+Q35. How do I reduce seats? 
+A: 
+Seat reductions can be scheduled for the next billing cycle. 
+ 
+Support Ticket FAQs 
+Q36. How do I create a support ticket? 
+A: 
+Navigate to Support Center and click Create Ticket. 
+ 
+Q37. How do I check ticket status? 
+A: 
+Open My Tickets and select the desired ticket. 
+ 
+Q38. What ticket statuses are available? 
+A: 
+Common statuses include: 
+• 
+Open 
+• 
+In Progress 
+• 
+Waiting on Customer 
+• 
+Resolved 
+• 
+Closed 
+ 
+Q39. What ticket priorities are available? 
+A: 
+Priorities include: 
+• 
+Low 
+• 
+Medium 
+• 
+High 
+• 
+Critical 
+ 
+Q40. How do I update a ticket? 
+A: 
+Open the ticket and add a new comment or update. 
+ 
+Q41. Can I reopen a resolved ticket? 
+A: 
+Yes. Resolved tickets may be reopened within the allowed period. 
+ 
+Q42. How do I attach files to a ticket? 
+A: 
+Attachments can be uploaded while creating or updating a ticket. 
+ 
+Q43. What information should I include in a ticket? 
+A: 
+Include: 
+• 
+Problem description 
+• 
+Error messages 
+• 
+Screenshots 
+• 
+Relevant account details 
+ 
+Security FAQs 
+Q44. Is my data encrypted? 
+A: 
+Yes. Data is encrypted both in transit and at rest. 
+ 
+Q45. Does Nexus Support AI support MFA? 
+A: 
+Yes. Multi-factor authentication is supported. 
+ 
+Q46. How do I enable MFA? 
+A: 
+Navigate to Security Settings and enable Multi-Factor Authentication. 
+ 
+Q47. What happens if I lose access to MFA? 
+A: 
+Use backup recovery methods or contact support. 
+ 
+Q48. Are audit logs available? 
+A: 
+Yes. Audit logs are available for supported plans. 
+ 
+Enterprise FAQs 
+Q49. What benefits do Enterprise customers receive? 
+A: 
+Enterprise customers receive: 
+• 
+Dedicated support 
+• 
+Custom SLAs 
+• 
+Priority ticket handling 
+• 
+Account management 
+ 
+Q50. Can Enterprise customers negotiate contracts? 
+A: 
+Yes. Enterprise agreements can include custom terms. 
+ 
+Q51. Do Enterprise customers get faster support? 
+A: 
+Yes. Enterprise customers may receive enhanced response times. 
+ 
+Refund FAQs 
+Q52. How do I request a refund? 
+A: 
+Submit a refund request through Billing Support. 
+ 
+Q53. How long do refunds take? 
+A: 
+Approved refunds are typically processed within 5–10 business days. 
+ 
+Q54. Can I request a refund after 30 days? 
+A: 
+Refund requests submitted after 30 days are generally not eligible. 
+ 
+Q55. Can partial refunds be issued? 
+A: 
+Partial refunds may be reviewed on a case-by-case basis. 
+ 
+Cancellation FAQs 
+Q56. How do I cancel my subscription? 
+A: 
+Navigate to Billing → Subscription → Cancel Subscription. 
+ 
+Q57. Does cancellation happen immediately? 
+A: 
+No. Cancellation becomes effective at the end of the current billing cycle. 
+ 
+Q58. Will I lose access immediately after cancellation? 
+A: 
+No. Access remains available until the current billing period ends. 
+ 
+Q59. Can I reactivate a cancelled subscription? 
+A: 
+Yes. Contact support or reactivate through Subscription Settings. 
+ 
+Q60. What happens to my data after cancellation? 
+A: 
+Data enters the retention period according to company policy.

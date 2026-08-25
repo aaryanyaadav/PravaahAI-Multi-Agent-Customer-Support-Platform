@@ -1,0 +1,255 @@
+Nexus Support  
+Customer Policies and Service Guidelines 
+Table of Contents 
+1. Account Policy 
+2. User Management Policy 
+3. Subscription Policy 
+4. Billing Policy 
+5. Refund Policy 
+6. Cancellation Policy 
+7. Seat Management Policy 
+8. Service Level Agreement (SLA) 
+9. Support Ticket Policy 
+10. Escalation Policy 
+11. Data Retention Policy 
+12. Security Policy 
+13. Privacy Policy 
+14. Acceptable Use Policy 
+15. Enterprise Customer Policy 
+16.  
+1. Account Policy 
+An account represents an organization subscribed to Nexus Support AI. 
+Each account contains: 
+• 
+Company information 
+• 
+Users 
+• 
+Subscription details 
+• 
+Billing records 
+• 
+Support history 
+Accounts must maintain accurate information at all times. 
+Account ownership belongs to the subscribing organization. 
+Nexus Support AI reserves the right to suspend accounts that violate company policies. 
+Inactive accounts may be archived after prolonged inactivity. 
+ 
+2. User Management Policy 
+Users may be assigned one of the following roles: 
+• 
+Owner 
+• 
+Admin 
+• 
+Manager 
+• 
+Member 
+Only Owners and Admins may: 
+• 
+Add users 
+• 
+Remove users 
+• 
+Change subscription settings 
+• 
+Access billing information 
+Organizations are responsible for managing user permissions. 
+Unauthorized sharing of credentials is prohibited. 
+ 
+3. Subscription Policy 
+Nexus Support AI offers the following subscription tiers: 
+• 
+Starter 
+• 
+Professional 
+• 
+Business 
+• 
+Enterprise 
+Subscriptions are billed according to the selected billing cycle. 
+Supported billing cycles include: 
+• 
+Monthly 
+• 
+Quarterly 
+• 
+Annual 
+Subscription upgrades become effective immediately. 
+Subscription downgrades become effective at the start of the next billing cycle. 
+Subscription changes may impact available features and usage limits. 
+ 
+4. Billing Policy 
+Invoices are automatically generated according to the active subscription. 
+Customers are responsible for maintaining valid payment methods. 
+Supported payment methods include: 
+• 
+Credit Cards 
+• 
+Debit Cards 
+• 
+ACH Transfers 
+• 
+Wire Transfers 
+Invoices must be paid by the due date indicated on the invoice. 
+Failure to pay invoices may result in service restrictions or account suspension. 
+Billing disputes must be submitted within thirty (30) days of the invoice date. 
+5. Refund Policy 
+Refund requests may be submitted within thirty (30) calendar days of the original payment 
+date. 
+Refunds are only applicable to successfully paid invoices. 
+Refund requests submitted after thirty (30) days are not eligible. 
+Refund eligibility may depend on: 
+• 
+Subscription status 
+• 
+Payment verification 
+• 
+Account standing 
+Approved refunds are processed within five to ten business days. 
+Refunds are returned to the original payment method whenever possible. 
+Partial refunds are evaluated on a case-by-case basis. 
+Enterprise agreements may contain custom refund terms. 
+ 
+6. Cancellation Policy 
+Customers may cancel subscriptions at any time. 
+Cancellation requests do not immediately terminate service. 
+The subscription remains active until the end of the current billing cycle. 
+No prorated refunds are provided for unused portions of the billing cycle unless otherwise 
+specified in a contractual agreement. 
+Cancelled accounts may continue to access paid services until the expiration date of the current 
+billing period. 
+ 
+7. Seat Management Policy 
+Each subscription includes a defined number of seats. 
+A seat represents one active user. 
+Organizations may purchase additional seats at any time. 
+Additional seats are billed on a prorated basis. 
+Unused seats do not generate refunds. 
+Seat reductions take effect during the next billing cycle. 
+Seat availability depends on the active subscription plan. 
+ 
+8. Service Level Agreement (SLA) 
+Nexus Support AI provides the following support response targets. 
+Critical Priority Tickets: 
+• 
+Initial Response Time: 1 Hour 
+High Priority Tickets: 
+• 
+Initial Response Time: 4 Hours 
+Medium Priority Tickets: 
+• 
+Initial Response Time: 1 Business Day 
+Low Priority Tickets: 
+• 
+Initial Response Time: 3 Business Days 
+SLA targets are goals and not guaranteed resolution times. 
+Enterprise customers may have custom SLA agreements. 
+ 
+9. Support Ticket Policy 
+Customers may submit support requests through: 
+• 
+Support Portal 
+• 
+Email Support 
+• 
+Enterprise Support Channels 
+Each ticket receives: 
+• 
+Ticket ID 
+• 
+Priority 
+• 
+Status 
+• 
+Assigned Team 
+Ticket priorities include: 
+• 
+Low 
+• 
+Medium 
+• 
+High 
+• 
+Critical 
+Customers should provide accurate descriptions to facilitate faster resolution. 
+Duplicate tickets may be merged. 
+Resolved tickets may be reopened within fourteen (14) days of closure. 
+ 
+10. Escalation Policy 
+Tickets may be escalated under the following circumstances: 
+• 
+Critical business impact 
+• 
+Security incidents 
+• 
+Extended resolution delays 
+• 
+Enterprise customer requests 
+Escalated tickets receive additional review by senior support personnel. 
+Escalation does not guarantee immediate resolution. 
+Human review may be required for complex cases. 
+ 
+11. Data Retention Policy 
+Customer records are retained for seven (7) years. 
+Audit logs are retained for three (3) years. 
+Deleted accounts enter an archival state for ninety (90) days. 
+Archived data may be permanently removed after the retention period expires. 
+Legal and regulatory obligations may require extended retention. 
+ 
+12. Security Policy 
+Nexus Support AI employs multiple security controls including: 
+• 
+AES-256 encryption at rest 
+• 
+TLS 1.3 encryption in transit 
+• 
+Multi-factor authentication 
+• 
+Role-based access control 
+• 
+Audit logging 
+Security incidents are investigated according to internal response procedures. 
+Customers are responsible for safeguarding credentials. 
+ 
+13. Privacy Policy 
+Customer information is processed only for legitimate business purposes. 
+Personal information is handled according to applicable privacy regulations. 
+Customer data is never sold to third parties. 
+Access to customer information is restricted to authorized personnel. 
+Customers may request information regarding stored personal data. 
+ 
+14. Acceptable Use Policy 
+Customers may not use Nexus Support AI for: 
+• 
+Illegal activities 
+• 
+Fraudulent activities 
+• 
+Distribution of malware 
+• 
+Unauthorized system access 
+• 
+Abuse of platform resources 
+Violation of acceptable use policies may result in suspension or termination of services. 
+ 
+15. Enterprise Customer Policy 
+Enterprise customers may receive: 
+• 
+Dedicated account management 
+• 
+Priority support 
+• 
+Custom SLAs 
+• 
+Custom billing arrangements 
+• 
+Contractual service commitments 
+Enterprise agreements may supersede standard policies where explicitly stated. 
+All custom terms must be documented within the executed enterprise agreement. 
+ 
+Policy Revision Statement 
+Nexus Support AI reserves the right to modify policies at any time. 
+Updated policies become effective upon publication unless otherwise specified. 
+Customers are encouraged to periodically review policy updates. 
+End of Document.

@@ -1,0 +1,235 @@
+{
+  "timestamp": "20260825_224623",
+  "total_queries": 100,
+  "overall_kpis": {
+    "routing_accuracy_pct": 73.0,
+    "escalation_accuracy_pct": 94.0,
+    "ticket_accuracy_pct": 94.0,
+    "answer_accuracy_pct": 71.0,
+    "keyword_coverage_pct": 64.66,
+    "conversational_suppression_pct": 100.0
+  },
+  "latency_and_tokens": {
+    "p50_seconds": 1.539,
+    "p90_seconds": 47.434,
+    "p99_seconds": 64.262,
+    "mean_seconds": 12.633,
+    "min_seconds": 0.339,
+    "max_seconds": 64.262,
+    "total_tokens": 177305,
+    "avg_tokens_per_query": 1773.0
+  },
+  "routing_metrics": {
+    "accuracy": 73.0,
+    "total_evaluated": 100,
+    "correct_routed": 73,
+    "per_agent_metrics": {
+      "billing": {
+        "support": 20,
+        "true_positives": 19,
+        "false_positives": 15,
+        "false_negatives": 1,
+        "precision": 55.88,
+        "recall": 95.0,
+        "f1_score": 70.37
+      },
+      "crm": {
+        "support": 20,
+        "true_positives": 19,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 82.61,
+        "recall": 95.0,
+        "f1_score": 88.37
+      },
+      "escalation": {
+        "support": 10,
+        "true_positives": 4,
+        "false_positives": 0,
+        "false_negatives": 6,
+        "precision": 100.0,
+        "recall": 40.0,
+        "f1_score": 57.14
+      },
+      "input_guard": {
+        "support": 10,
+        "true_positives": 10,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0
+      },
+      "knowledge": {
+        "support": 15,
+        "true_positives": 6,
+        "false_positives": 5,
+        "false_negatives": 9,
+        "precision": 54.55,
+        "recall": 40.0,
+        "f1_score": 46.15
+      },
+      "refund": {
+        "support": 10,
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 10,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "ticket": {
+        "support": 15,
+        "true_positives": 15,
+        "false_positives": 2,
+        "false_negatives": 0,
+        "precision": 88.24,
+        "recall": 100.0,
+        "f1_score": 93.75
+      }
+    },
+    "confusion_matrix": {
+      "billing": {
+        "billing": 19,
+        "crm": 0,
+        "escalation": 0,
+        "input_guard": 0,
+        "knowledge": 1,
+        "refund": 0,
+        "ticket": 0
+      },
+      "crm": {
+        "billing": 0,
+        "crm": 19,
+        "escalation": 0,
+        "input_guard": 0,
+        "knowledge": 1,
+        "refund": 0,
+        "ticket": 0
+      },
+      "escalation": {
+        "billing": 2,
+        "crm": 1,
+        "escalation": 4,
+        "input_guard": 0,
+        "knowledge": 3,
+        "refund": 0,
+        "ticket": 0
+      },
+      "input_guard": {
+        "billing": 0,
+        "crm": 0,
+        "escalation": 0,
+        "input_guard": 10,
+        "knowledge": 0,
+        "refund": 0,
+        "ticket": 0
+      },
+      "knowledge": {
+        "billing": 3,
+        "crm": 3,
+        "escalation": 0,
+        "input_guard": 0,
+        "knowledge": 6,
+        "refund": 1,
+        "ticket": 2
+      },
+      "refund": {
+        "billing": 10,
+        "crm": 0,
+        "escalation": 0,
+        "input_guard": 0,
+        "knowledge": 0,
+        "refund": 0,
+        "ticket": 0
+      },
+      "ticket": {
+        "billing": 0,
+        "crm": 0,
+        "escalation": 0,
+        "input_guard": 0,
+        "knowledge": 0,
+        "refund": 0,
+        "ticket": 15
+      }
+    }
+  },
+  "escalation_metrics": {
+    "escalation_accuracy": 94.0,
+    "ticket_creation_accuracy": 94.0,
+    "conversational_ticket_suppression_rate": 100.0,
+    "true_positives": 6,
+    "false_positives": 2,
+    "false_negatives": 4,
+    "true_negatives": 88,
+    "precision": 75.0,
+    "recall": 60.0,
+    "false_positive_rate": 2.22,
+    "false_negative_rate": 40.0
+  },
+  "answer_metrics": {
+    "accuracy": 71.0,
+    "total_evaluated": 100,
+    "correct_answers": 71,
+    "avg_keyword_coverage": 64.66,
+    "grounding_pass_rate": 100.0
+  },
+  "category_breakdown": {
+    "billing": {
+      "total_queries": 20,
+      "routing_accuracy": 95.0,
+      "escalation_accuracy": 95.0,
+      "ticket_accuracy": 95.0,
+      "answer_accuracy": 70.0
+    },
+    "conversational": {
+      "total_queries": 8,
+      "routing_accuracy": 100.0,
+      "escalation_accuracy": 100.0,
+      "ticket_accuracy": 100.0,
+      "answer_accuracy": 100.0
+    },
+    "crm": {
+      "total_queries": 20,
+      "routing_accuracy": 95.0,
+      "escalation_accuracy": 95.0,
+      "ticket_accuracy": 95.0,
+      "answer_accuracy": 75.0
+    },
+    "escalation": {
+      "total_queries": 10,
+      "routing_accuracy": 40.0,
+      "escalation_accuracy": 60.0,
+      "ticket_accuracy": 60.0,
+      "answer_accuracy": 40.0
+    },
+    "guardrail_safety": {
+      "total_queries": 2,
+      "routing_accuracy": 100.0,
+      "escalation_accuracy": 100.0,
+      "ticket_accuracy": 100.0,
+      "answer_accuracy": 100.0
+    },
+    "knowledge": {
+      "total_queries": 15,
+      "routing_accuracy": 40.0,
+      "escalation_accuracy": 100.0,
+      "ticket_accuracy": 100.0,
+      "answer_accuracy": 53.3
+    },
+    "refund": {
+      "total_queries": 10,
+      "routing_accuracy": 0.0,
+      "escalation_accuracy": 100.0,
+      "ticket_accuracy": 100.0,
+      "answer_accuracy": 100.0
+    },
+    "ticket": {
+      "total_queries": 15,
+      "routing_accuracy": 100.0,
+      "escalation_accuracy": 100.0,
+      "ticket_accuracy": 100.0,
+      "answer_accuracy": 66.7
+    }
+  }
+}
