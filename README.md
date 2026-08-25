@@ -342,7 +342,7 @@ evaluation/
 #### 1. Executive KPI Summary
 
 | Benchmark Metric | Score | Description |
-| :--- | :---: | :---: | :---: | :--- |
+| :--- | :---: | :--- |
 | **Routing Accuracy** | **73.0%** | Correct primary domain agent assigned |
 | **Escalation Accuracy** | **94.0%** | Correct identification of human handoff needs |
 | **Ticket Accuracy (Suppression & Creation)** | **94.0%** | Accurate DB ticket creation vs suppression |
