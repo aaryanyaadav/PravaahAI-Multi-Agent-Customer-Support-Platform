@@ -441,12 +441,10 @@ function App() {
     }
   }, []);
 
-  // API Base resolution: automatically uses localhost during local development
-  // Production Render backend URL:
-  const RENDER_BACKEND_URL = 'https://pravaahai-multi-agent-customer-support.onrender.com/api';
-  const API_BASE = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') 
+  // API Base resolution: uses localhost during local development (port 3000/5500) or relative /api on Render
+  const API_BASE = (window.location.port === '3000' || window.location.port === '5500') 
     ? 'http://127.0.0.1:8000/api' 
-    : RENDER_BACKEND_URL;
+    : '/api';
 
   // Fetch real db stats from backend when filter or active tab changes
   useEffect(() => {

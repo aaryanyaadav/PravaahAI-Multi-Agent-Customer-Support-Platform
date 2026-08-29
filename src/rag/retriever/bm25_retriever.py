@@ -1,5 +1,4 @@
 import json
-
 # pyrefly: ignore [missing-import]
 from rank_bm25 import BM25Okapi
 class BM25Retriever:

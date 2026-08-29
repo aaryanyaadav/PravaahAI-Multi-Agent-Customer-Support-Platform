@@ -772,6 +772,12 @@ async def delete_history(session_id: str):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-# Static files mounting removed to keep backend purely REST API.
+# Mount frontend UI directly to root URL
+from fastapi.staticfiles import StaticFiles
+
+if os.path.exists("frontend"):
+    app.mount("/", StaticFiles(directory="frontend", html=True), name="frontend")
+
+
 
 
