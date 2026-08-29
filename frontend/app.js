@@ -441,6 +441,13 @@ function App() {
     }
   }, []);
 
+  // API Base resolution: automatically uses localhost during local development
+  // Production Render backend URL:
+  const RENDER_BACKEND_URL = 'https://pravaahai-multi-agent-customer-support.onrender.com/api';
+  const API_BASE = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') 
+    ? 'http://127.0.0.1:8000/api' 
+    : RENDER_BACKEND_URL;
+
   // Fetch real db stats from backend when filter or active tab changes
   useEffect(() => {
     fetchStats();
@@ -450,8 +457,8 @@ function App() {
     setLoadingStats(true);
     try {
       const url = filterDays > 0
-        ? `http://127.0.0.1:8000/api/dashboard/stats?days=${filterDays}`
-        : `http://127.0.0.1:8000/api/dashboard/stats`;
+        ? `${API_BASE}/dashboard/stats?days=${filterDays}`
+        : `${API_BASE}/dashboard/stats`;
       const res = await fetch(url);
       const data = await res.json();
       if (data) {
@@ -466,7 +473,7 @@ function App() {
 
   const loadSessionHistory = async (sessionId) => {
     try {
-      const res = await fetch(`http://127.0.0.1:8000/api/history/${sessionId}`);
+      const res = await fetch(`${API_BASE}/history/${sessionId}`);
       const data = await res.json();
       if (data && data.history) {
         const mapped = data.history.map((msg, idx) => ({
@@ -498,7 +505,7 @@ function App() {
   const deleteSession = async (e, sessionId) => {
     e.stopPropagation();
     try {
-      await fetch(`http://127.0.0.1:8000/api/history/${sessionId}`, {
+      await fetch(`${API_BASE}/history/${sessionId}`, {
         method: 'DELETE'
       });
     } catch (err) {
@@ -513,20 +520,7 @@ function App() {
       if (updated.length > 0) {
         selectSession(updated[0].id);
       } else {
-        const newId = uuidv4();
-        const newSession = {
-          id: newId,
-          title: "New Support Chat",
-          timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
-        };
-        const freshList = [newSession];
-        setSessionList(freshList);
-        localStorage.setItem('agentic_sessions', JSON.stringify(freshList));
-        setCurrentSessionId(newId);
-        setMessages([]);
-        setSelectedTraceSteps(null);
-        setIsInspectorOpen(false);
-        setAccountId('');
+        startNewSession();
       }
     }
   };
@@ -580,7 +574,7 @@ function App() {
         account_id: accountId || null
       };
 
-      const res = await fetch('http://127.0.0.1:8000/api/chat', {
+      const res = await fetch(`${API_BASE}/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
