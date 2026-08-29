@@ -18,10 +18,7 @@ class GroqClient:
             self.client = Groq(api_key=self.api_key)
         except Exception:
             self.client = None
-        model = os.getenv("DEFAULT_MODEL") or getattr(settings, "DEFAULT_MODEL", None) or "llama-3.3-70b-versatile"
-        if "openai" in model or "gpt-oss" in model:
-            model = "llama-3.3-70b-versatile"
-        self.default_model = model
+        self.default_model = os.getenv("DEFAULT_MODEL") or getattr(settings, "DEFAULT_MODEL", None) or "openai/gpt-oss-120b"
 
     def invoke(self, system_prompt: str, user_prompt: str) -> LLMResponse:
         try:
