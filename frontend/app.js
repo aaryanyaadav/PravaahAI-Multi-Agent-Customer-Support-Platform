@@ -591,6 +591,18 @@ function App() {
 
       const data = await res.json();
 
+      if (!res.ok || !data.final_response) {
+        const errorDetail = data.detail || (typeof data === 'string' ? data : "Backend execution error. Check Render server logs for details.");
+        setMessages(prev => [...prev, {
+          id: `bot-err-${Date.now()}`,
+          sender: 'assistant',
+          text: `🚨 Server Error: ${errorDetail}`,
+          isError: true
+        }]);
+        setLoading(false);
+        return;
+      }
+
       const botMsg = {
         id: `bot-${Date.now()}`,
         sender: 'assistant',

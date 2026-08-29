@@ -7,7 +7,7 @@ class settings:
     )
     DEFAULT_MODEL = os.getenv(
         "DEFAULT_MODEL",
-        "openai/gpt-oss-120b"
+        "llama-3.3-70b-versatile"
     )
     TEMPERATURE = 0
 settings = settings()
