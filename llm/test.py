@@ -3,11 +3,9 @@ from llm.groq_client import (
 )
 client = GroqClient()
 response = client.invoke(
-
     system_prompt="""
 You are a CRM specialist.
 """,
-
     user_prompt="""
 What is a SaaS subscription?
 """
