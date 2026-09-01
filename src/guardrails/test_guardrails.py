@@ -1,12 +1,7 @@
-# guardrails/test_guardrails.py
-
 import os
 import sys
 import uuid
-
-# Add current directory to path
 sys.path.append(os.path.abspath('.'))
-
 from src.agents.orchestrator import build_orchestrator_graph
 
 def run_orchestrator_test(query: str, label: str):
