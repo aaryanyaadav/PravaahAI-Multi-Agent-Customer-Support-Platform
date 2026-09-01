@@ -1,5 +1,3 @@
-# guardrails/output_guard.py
-
 import json
 import re
 from llm.groq_client import GroqClient
