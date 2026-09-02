@@ -1,5 +1,3 @@
-# src/guardrails/test_ticket_suppression.py
-
 import os
 import sys
 import uuid
