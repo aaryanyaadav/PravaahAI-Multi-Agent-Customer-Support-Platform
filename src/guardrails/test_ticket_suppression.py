@@ -2,7 +2,6 @@ import os
 import sys
 import uuid
 
-# Ensure root is on path
 sys.path.append(os.path.abspath('.'))
 
 from src.agents.orchestrator import build_orchestrator_graph
