@@ -1,5 +1,3 @@
-# state/support_state.py
-
 from typing import TypedDict, List, Dict, Any, Optional
 
 class SupportState(TypedDict):
