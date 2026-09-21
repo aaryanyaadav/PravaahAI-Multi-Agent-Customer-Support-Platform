@@ -271,7 +271,7 @@ The Customer Chat Workspace is a stateful, interactive portal designed to handle
 ![Chat Initial State](./docs/screenshots/chat_initial.png)
 *   **Conversational History Sidebar (Left):** Maintains a clean chronological list of past support sessions (e.g., "Billing Inquiry", "Refund Inquiry") linked to the user's active session.
 *   **Stateful Memory Context:** When a user requests invoices or profile info, the system resolves historical context to retrieve their `account_id` automatically.
-*   **Ticket Confirmation Alerts:** Displays clear, system-generated notification cards whenever an inquiry is escalated and a new ticket is written to the database.
+*   **Ticket Confirmation Alerts:** Displays clear, system-generated notification cards whenever an inquiry is escalated and a new ticket is written to the database so that the record always exists.
 
 #### B. Voice Dictation Mode
 ![Voice Dictation Mode](./docs/screenshots/chat_voice_listening.png)
